@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "webpack-dev-server": "^4.9.3"

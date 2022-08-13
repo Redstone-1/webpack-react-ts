@@ -1,12 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './app'
+import './index.css'
 
-import './index.css';
-
-const App = function () {
-  return <div>demo</div>;
-};
-
-console.log('react', React);
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
